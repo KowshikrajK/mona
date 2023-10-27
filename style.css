@@ -89,3 +89,25 @@
     right: 0;
     z-index: -1;
   }
+
+  @media (max-width: 768px) {
+    h1{
+      font-size: 3rem;
+    }
+
+    .bg1{
+      width: 200px;
+      height: 200px;
+    }
+
+    .bg2{
+      width: 200px;
+      height: 200px;
+    }
+
+    .container{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  
